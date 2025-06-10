@@ -13,13 +13,18 @@
 
 - 파일 구조
 
-micro_speech_
-  ├── micro_speech.ino                                 <-- 메인 스케치 파일
-  ├── model.h                                          <-- TFLite 모델의 C 배열
-  ├── audio_provider.h / arduino_audio_provider.cpp    <-- 마이크 입력 처리
-  ├── feature_provider.h / feature_provider.cpp        <-- 특징 추출 관리
-  ├── micro_features_micro_features_generator.h /.cpp  <-- 특징 생성기
-  └── micro_features_micro_model_settings.h /.cpp      <-- 모델 특징 세팅 관련 설정
+
+  micro_speech.ino                                 <-- 메인 스케치 파일
+
+  model.h                                          <-- TFLite 모델의 C 배열
+
+  audio_provider.h / arduino_audio_provider.cpp    <-- 마이크 입력 처리
+
+  feature_provider.h / feature_provider.cpp        <-- 특징 추출 관리
+
+  micro_features_micro_features_generator.h /.cpp  <-- 특징 생성기
+
+  micro_features_micro_model_settings.h /.cpp      <-- 모델 특징 세팅 관련 설정
 
 
   
